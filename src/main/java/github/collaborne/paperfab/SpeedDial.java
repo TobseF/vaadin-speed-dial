@@ -4,6 +4,7 @@ import com.vaadin.flow.component.*;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.icon.Icon;
+import com.vaadin.flow.component.icon.VaadinIcon;
 import com.vaadin.flow.shared.Registration;
 
 import static org.apache.commons.lang3.StringUtils.EMPTY;
@@ -15,6 +16,10 @@ import static org.apache.commons.lang3.StringUtils.EMPTY;
 @NpmPackage(value = "@cwmr/paper-fab-speed-dial", version = "3.0.0")
 @JsModule("@cwmr/paper-fab-speed-dial/paper-fab-speed-dial.js")
 public class SpeedDial extends Component implements HasEnabled {
+
+    public SpeedDialAction addMenuItem(String item, VaadinIcon icon) {
+        return addMenuItem(item, icon.create());
+    }
 
     public SpeedDialAction addMenuItem(String item, Icon icon) {
         SpeedDialAction speedDialAction = new SpeedDialAction(item, icon);
