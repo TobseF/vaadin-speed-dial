@@ -27,6 +27,12 @@ public class SpeedDial extends Component implements HasEnabled {
         return speedDialAction;
     }
 
+    public SpeedDialAction addMenuItem(String item, VaadinIcon icon, ComponentEventListener<SpeedDialClickEvent> listener) {
+        SpeedDialAction speedDialAction = addMenuItem(item, icon);
+        speedDialAction.addClickListener(listener);
+        return speedDialAction;
+    }
+
     public SpeedDialAction addMenuItem(String item, Icon icon, ComponentEventListener<SpeedDialClickEvent> listener) {
         SpeedDialAction speedDialAction = addMenuItem(item, icon);
         speedDialAction.addClickListener(listener);
