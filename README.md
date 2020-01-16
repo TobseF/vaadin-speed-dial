@@ -19,6 +19,16 @@ Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcom
 
 ## 🖊 Usage
 
+Add it as dependency -  It's available on the [Central Maven Repository](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.1/jar):
+``` xml
+<dependency>
+    <groupId>io.github.tobsef</groupId>
+    <artifactId>speed-dial</artifactId>
+    <version>1.1.1</version>
+</dependency>
+```
+
+Add it to your View:
 ``` java
 SpeedDial speedDial = new SpeedDial();
 speedDial.addMenuItem("Copy", VaadinIcon.COPY, e -> Notification.show("Clicked Copy"));
