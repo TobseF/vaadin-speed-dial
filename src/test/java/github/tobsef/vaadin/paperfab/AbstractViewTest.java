@@ -1,4 +1,4 @@
-package github.collaborne.paperfab;
+package github.tobsef.vaadin.paperfab;
 
 import org.junit.Before;
 import org.junit.Rule;

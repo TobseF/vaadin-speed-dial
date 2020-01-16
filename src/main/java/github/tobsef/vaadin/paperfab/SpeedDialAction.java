@@ -1,7 +1,6 @@
-package github.collaborne.paperfab;
+package github.tobsef.vaadin.paperfab;
 
 import com.vaadin.flow.component.*;
-import com.vaadin.flow.component.charts.model.style.Color;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.html.Label;
@@ -106,15 +105,6 @@ public class SpeedDialAction extends Label implements HasEnabled {
      */
     public void setMarginBottom(String marginBottom) {
         setStyle("--paper-fab-speed-dial-bottom", marginBottom);
-    }
-
-    /**
-     * @param name  the style property name as camelCase, not <code>null</code>
-     * @param color the color property value (if <code>null</code>, the property
-     *              will be removed)
-     */
-    private Style setColor(String name, Color color) {
-        return setStyle(name, color.toString());
     }
 
     /**

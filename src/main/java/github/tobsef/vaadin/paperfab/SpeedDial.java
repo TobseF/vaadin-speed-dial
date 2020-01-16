@@ -1,4 +1,4 @@
-package github.collaborne.paperfab;
+package github.tobsef.vaadin.paperfab;
 
 import com.vaadin.flow.component.*;
 import com.vaadin.flow.component.dependency.JsModule;

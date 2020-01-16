@@ -1,6 +1,6 @@
 # Paper Speed Dial
 [![Vaadin-14](https://img.shields.io/badge/Vaadin-14.1.5-blue.svg?style=flat)](https://vaadin.com/)
-[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/tobse)
+[![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/speed-dial)
 
 Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcomponents.org/element/Collaborne/paper-fab-speed-dial)
 
@@ -9,11 +9,12 @@ Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcom
 
 ## ⭐ Features  
 ⭐ Floating menu bar  
-⭐ Build in support of [Vaadin Icons](https://vaadin.com/components/vaadin-icons)    
+⭐ Build in support of [Vaadin Icons](https://vaadin.com/directory/component/speed-dial)    
 ⭐ Backdrop to darken the background on open  
 ⭐ Setters fot all 11 CSS properties  
 ⭐ Server side ClickListener  
 ⭐ Server side `close` and `open` actions  
+⭐ Uses Vaadin-Core, so no pro subscription is needed  
 
 
 ## 🖊 Usage
