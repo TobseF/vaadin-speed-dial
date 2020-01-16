@@ -51,7 +51,7 @@ Starting the test/demo server:
 |`--paper-fab-speed-dial-keyboard-focus-background`|`setColorFocus(color)`|The background color of the Floating Action Button when focused|
 |`--paper-fab-speed-dial-background-close`|`setColorClose(color)`|The background color of the Floating Action Button when opened|
 |`--paper-fab-speed-dial-keyboard-focus-background-close`|`setColorCloseFocus(color)`|The background color of the Floating Action Button when opened and focused|
-|`--paper-fab-speed-dial-position`|`setPositionMode(color)`|The type of positioning method used for the Floating Action Button (default: absolute)|
+|`--paper-fab-speed-dial-position`|`setPositionMode(position)`|The type of positioning method used for the Floating Action Button (default: absolute)|
 |`--paper-fab-speed-dial-right`|`setMarginRight(marginRight)`|Margin to the right of the screen (default: 16px)|
 |`--paper-fab-speed-dial-bottom`|`setMarginBottom(marginBottom)`|Margin to the bottom of the screen (default: 16px)|
 
