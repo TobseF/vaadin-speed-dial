@@ -1,6 +1,7 @@
 # Paper Speed Dial
 [![Vaadin-14](https://img.shields.io/badge/Vaadin-14.1.5-blue.svg?style=flat)](https://vaadin.com/)
 [![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/speed-dial)
+[![Published on Maven Central](https://img.shields.io/badge/Maven_Central-published-00b4f0.svg)](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.1/jar)
 
 Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcomponents.org/element/Collaborne/paper-fab-speed-dial)
 
