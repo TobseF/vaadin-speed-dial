@@ -5,7 +5,7 @@
 
     <groupId>io.github.tobsef</groupId>
     <artifactId>speed-dial</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.2</version>
     <name>Speed Dial</name>
     <description>Integration of paper-fab-speed-dial for Vaadin platform</description>
     <packaging>jar</packaging>
