@@ -1,5 +1,5 @@
 # Paper Speed Dial
-[![Vaadin-14](https://img.shields.io/badge/Vaadin-14.1.5-blue.svg?style=flat)](https://vaadin.com/) [![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/speed-dial) [![Published on Maven Central](https://img.shields.io/badge/Maven_Central-published-00b4f0.svg)](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.3/jar)
+[![Vaadin-14](https://img.shields.io/badge/Vaadin-14.1.5-blue.svg?style=flat)](https://vaadin.com/) [![Published on Vaadin Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/speed-dial) [![Published on Maven Central](https://img.shields.io/badge/Maven_Central-published-00b4f0.svg)](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.4/jar)
 
 Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcomponents.org/element/Collaborne/paper-fab-speed-dial)
 
@@ -18,12 +18,12 @@ Vaadin 14 Java integration of [@polymer/paper-fab-speed-dial](https://www.webcom
 
 ## 🖊 Usage
 
-Add it as dependency -  It's available on the [Central Maven Repository](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.3/jar):
+Add it as dependency -  It's available on the [Central Maven Repository](https://search.maven.org/artifact/io.github.tobsef/speed-dial/1.1.4/jar):
 ``` xml
 <dependency>
     <groupId>io.github.tobsef</groupId>
     <artifactId>speed-dial</artifactId>
-    <version>1.1.3</version>
+    <version>1.1.4</version>
 </dependency>
 ```
 
@@ -57,7 +57,8 @@ Starting the test/demo server:
 ### SpeedDial
 |Style|Method|Description|
 |---|---|---|
-|`--paper-fab-speed-dial-background`|`setColor(color)`|The background color of the Floating Action Button|
+|`--paper-fab-speed-dial-background`|`setColor(color)`|The background color of the main Action Button|
+|`--iron-icon-fill-color`|`setIconColor(color)`|The icon color of the main Action Button|
 |`--paper-fab-speed-dial-keyboard-focus-background`|`setColorFocus(color)`|The background color of the Floating Action Button when focused|
 |`--paper-fab-speed-dial-background-close`|`setColorClose(color)`|The background color of the Floating Action Button when opened|
 |`--paper-fab-speed-dial-keyboard-focus-background-close`|`setColorCloseFocus(color)`|The background color of the Floating Action Button when opened and focused|
@@ -68,6 +69,7 @@ Starting the test/demo server:
 ### SpeedDialAction
 |Style|Method|Description|
 |---|---|---|
+|`--iron-icon-fill-color`|`setIconColor(color)`|The icon color of the Floating Action Button|
 |`--paper-fab-speed-dial-action-label-color`|`setColorActionLabelText(color)`|The text color of label|
 |`--paper-fab-speed-dial-action-label-background`|`setColorActionLabel(color)`|The background color of label|
 |`--paper-fab-speed-dial-action-background`|`setColorAction(color)`|The background color of the Floating Action Button|

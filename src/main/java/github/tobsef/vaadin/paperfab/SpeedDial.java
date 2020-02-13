@@ -1,6 +1,12 @@
 package github.tobsef.vaadin.paperfab;
 
-import com.vaadin.flow.component.*;
+import com.vaadin.flow.component.Component;
+import com.vaadin.flow.component.ComponentEvent;
+import com.vaadin.flow.component.ComponentEventListener;
+import com.vaadin.flow.component.DomEvent;
+import com.vaadin.flow.component.HasEnabled;
+import com.vaadin.flow.component.Synchronize;
+import com.vaadin.flow.component.Tag;
 import com.vaadin.flow.component.dependency.JsModule;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.icon.Icon;
@@ -16,7 +22,7 @@ import static org.apache.commons.lang3.StringUtils.EMPTY;
 @Tag("paper-fab-speed-dial")
 @NpmPackage(value = "@cwmr/paper-fab-speed-dial", version = "3.0.0")
 @JsModule("@cwmr/paper-fab-speed-dial/paper-fab-speed-dial.js")
-public class SpeedDial extends Component implements HasEnabled {
+public class SpeedDial extends Component implements HasEnabled, HasSpeedDialStyle {
 
 	public SpeedDialAction addMenuItem(String item, VaadinIcon icon) {
 		return addMenuItem(item, icon.create());
